@@ -1,0 +1,79 @@
+================================================================================
+ARQUIVO: a-empresa.txt
+DESCRICÃO: Textos institucionais da página "A Empresa" da Link Alarmes.
+CONVERSÃO: Autoridade de mercado, história forte regional e foco em competência técnica.
+================================================================================
+
+--------------------------------------------------------------------------------
+1. TÍTULO PRINCIPAL (H1) & INTRODUÇÃO PERSUASIVA
+--------------------------------------------------------------------------------
+[Título Principal (H1)]
+Segurança de Elite, Tecnologia de Ponta e Engenharia Certificada. Conheça a Link Alarmes.
+
+[Texto de Destaque]
+A Link Alarmes não nasceu por acaso. Fundada no coração do Oeste Baiano, nossa empresa foi concebida por profissionais obstinados por tecnologia e proteção patrimonial. Carregamos no nosso DNA o compromisso inabalável de blindar residências, comércios, indústrias e sedes do agronegócio por meio de projetos sob medida de segurança eletrônica inteligente e infraestrutura de redes corporativas.
+
+Com profissionais que acumulam mais de 15 anos de experiência prática e sólida no mercado nacional de alta tecnologia, nos tornamos sinônimo de prontidão, confiança técnica e robustez de hardware e software.
+
+--------------------------------------------------------------------------------
+2. HISTÓRIA RICA: ENRAIZADA NO OESTE DA BAHIA
+--------------------------------------------------------------------------------
+[Título (H2)]
+Nossa História: Acompanhando a Evolução do Oeste Baiano
+
+[Texto da História]
+A história da Link Alarmes está intimamente ligada ao crescimento acelerado e pujante do Oeste da Bahia. Há mais de uma década e meia, quando a região de Barreiras expandia seus serviços comerciais e Luís Eduardo Magalhães consolidava-se como uma das maiores forças do agronegócio nacional, nossa liderança técnica já atuava ativamente no planejamento de redes complexas e sistemas de segurança eletrônica.
+
+Percebendo a carência por serviços de alto nível — onde o cliente corporativo e o proprietário rural necessitavam não de simples revendedores de câmeras, mas de engenheiros de segurança capazes de projetar sistemas imunes a sabotagens e redes que suportassem grandes volumes de dados sem quedas de sinal —, a Link Alarmes foi estruturada.
+
+Hoje, operamos de forma estratégica com tecnologia de ponta, integrando serviços avançados de CFTV com inteligência artificial, cercas virtuais, controle de acesso seguro e cabeamento estruturado corporativo. Consolidamos-nos como a escolha natural de quem exige proteção impecável e profissionalismo absoluto.
+
+--------------------------------------------------------------------------------
+3. MISSÃO, VISÃO E VALORES SOLÍDOS
+--------------------------------------------------------------------------------
+[Título (H2)]
+Nossa Essência Corporativa
+
+---
+[Missão]
+Proteger vidas humanas, blindar patrimônios valiosos e otimizar a conectividade e produtividade de empresas através de soluções avançadas e integradas de segurança eletrônica e infraestrutura de redes estruturadas, gerando tranquilidade inabalável e prontidão operacional contínua para nossos clientes.
+
+---
+[Visão]
+Consolidar a liderança absoluta em tecnologia de segurança de elite e infraestrutura de dados no Oeste Baiano até 2030, sendo a marca mais recomendada por grandes indústrias, cooperativas de agronegócio e famílias que não abrem mão de qualidade técnica e estabilidade operacional.
+
+---
+[Valores Corporativos]
+• Ética Inabalável: Transparência absoluta no desenho dos projetos, entregando sempre exatamente a robustez necessária, sem custos ocultos ou atalhos técnicos.
+• Prontidão e Velocidade: Resposta imediata em situações emergenciais. Para nós, a segurança e a conexão do cliente são prioridades de fração de segundos.
+• Inovação de Ponta: Atualização constante com o que há de mais moderno no mercado global, trazendo inteligência artificial aplicada ao CFTV e novos padrões de Wi-Fi 6 corporativo para a região.
+• Excelência Técnica e de Engenharia: Cada parafuso fixado e cada cabo de rede estruturado passa por padrões rigorosos de conformidade e testes de estresse antes da entrega definitiva.
+
+--------------------------------------------------------------------------------
+4. DESTAQUE DA EQUIPE TÉCNICA ULTRA-CAPACITADA
+--------------------------------------------------------------------------------
+[Título (H2)]
+Por que os Engenheiros e Técnicos da Link Alarmes Fazem a Diferença?
+
+[Texto de Apoio da Seção]
+No mercado de segurança eletrônica de ponta, equipamentos caros sem uma instalação e parametrização especializada são apenas plásticos instalados nas paredes. 
+
+O maior diferencial competitivo da Link Alarmes está em nossa equipe técnica altamente certificada. Contamos com engenheiros de redes e especialistas em segurança eletrônica que possuem mais de 15 anos de atuação direta e sólida em projetos de infraestrutura crítica.
+
+Isso significa que nossa equipe possui domínio completo sobre:
+• Parametrização fina de analíticos de Inteligência Artificial para câmeras (evitando falsos alarmes gerados por sombras, chuva ou vegetação).
+• Dimensionamento correto de energia redundante (Nobreaks e sistemas solares de backup) para garantir o funcionamento ininterrupto do sistema mesmo sem energia da concessionária.
+• Fusão de fibra óptica e certificação de cabeamento CAT6 e CAT6A com relatórios técnicos de atenuação de sinal.
+• Segurança cibernética dos dispositivos conectados, impedindo invasões digitais e sequestros de gravações e dados.
+
+Seja para proteger o lar de sua família em Barreiras ou blindar o tráfego de dados e o controle facial de uma gigante do agronegócio em Luís Eduardo Magalhães, você estará amparado pelos profissionais mais competentes e experientes do mercado.
+
+--------------------------------------------------------------------------------
+5. CALL TO ACTION (CTA)
+--------------------------------------------------------------------------------
+[Título de Chamada]
+Invista na melhor engenharia de proteção do Oeste Baiano.
+
+[Botão de Ação]
+Agendar Reunião com Engenheiro de Projetos
+Link: https://wa.me/5577999302140?text=Olá!+Gostaria+de+solicitar+um+orçamento+com+a+Link+Alarmes.

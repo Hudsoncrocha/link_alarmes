@@ -1,0 +1,98 @@
+================================================================================
+ARQUIVO: atendimento.txt
+DESCRICÃO: Textos informativos de suporte, horários, FAQ e copy para formulários de contato.
+CONVERSÃO: Clareza operacional, resolução de dúvidas comuns e facilitação do contato.
+================================================================================
+
+--------------------------------------------------------------------------------
+1. TEXTOS DE SUPORTE E ATENÇÃO AO CLIENTE
+--------------------------------------------------------------------------------
+[Título Principal (H1)]
+Canal de Atendimento e Suporte Técnico Link Alarmes
+
+[Texto de Apoio]
+Para a Link Alarmes, o atendimento de excelência começa muito antes da venda e se estende por toda a vida útil do seu sistema de segurança e rede. Entendemos que tecnologia avançada exige suporte humano qualificado e ágil. 
+
+Nosso compromisso é nunca deixar você sem resposta ou exposto ao risco. Seja para esclarecer uma dúvida técnica sobre o seu aplicativo de CFTV inteligente, solicitar um técnico para fusão de fibra óptica ou reconfigurar um sensor de presença, nossa estrutura está pronta para te atender com prontidão máxima.
+
+--------------------------------------------------------------------------------
+2. CANAIS E HORÁRIOS DE ATENDIMENTO
+--------------------------------------------------------------------------------
+[Título (H2)]
+Nossos Canais de Contato e Horários Operacionais
+
+---
+[Central de Monitoramento e Suporte Emergencial]
+• Status: ATENDIMENTO 24 HORAS (Sem interrupções)
+• Escopo: Alertas de pânico, invasão de intrusos e quedas críticas de servidores de rede/internet corporativa.
+• Dias/Horários: Todos os dias da semana (24/7/365).
+• Canal de WhatsApp de Plantão: https://wa.me/5577999302140?text=Olá!+Gostaria+de+solicitar+um+orçamento+com+a+Link+Alarmes.
+
+---
+[Departamento Comercial e Administrativo]
+• Escopo: Agendamento de diagnósticos gratuitos, novos projetos de engenharia de segurança, dúvidas de faturamento e agendamento de manutenções preventivas.
+• Dias/Horários:
+  - Segunda a Sexta-feira: 08:00 às 18:00
+  - Sábados: 08:00 às 12:00
+• Canal de Atendimento Comercial: https://wa.me/5577999302140?text=Olá!+Gostaria+de+solicitar+um+orçamento+com+a+Link+Alarmes.
+
+--------------------------------------------------------------------------------
+3. FAQ PERSUASIVO (DÚVIDAS FREQUENTES)
+--------------------------------------------------------------------------------
+[Título (H2)]
+Dúvidas Frequentes sobre a Link Alarmes
+
+---
+[Pergunta 1] A Link Alarmes realiza o monitoramento das imagens em tempo real?
+[Resposta] Sim! Projetamos sistemas de CFTV inteligente integrados ao seu smartphone e à nossa central de suporte. As câmeras com Inteligência Artificial diferenciam movimentos comuns (animais, vegetação) de intrusões de humanos ou veículos de forma precisa. Você recebe alertas automáticos com clips de vídeo diretamente em seu celular no exato momento da ocorrência, possibilitando ação imediata e acionamento das forças de segurança.
+
+---
+[Pergunta 2] Como funciona o suporte de redes corporativas e Wi-Fi?
+[Resposta] Nós atuamos com manutenção preventiva e suporte de prontidão. Projetamos redes baseadas em cabeamento estruturado de alto padrão e roteadores Wi-Fi 6 que monitoram o tráfego corporativo. Se ocorrer alguma desconexão crítica no seu roteamento, nossa equipe é notificada para reestabelecer o link remotamente ou despachar o plantão técnico local para evitar prejuízos na operação da sua empresa.
+
+---
+[Pergunta 3] Minha residência, fazenda ou comércio no interior do Oeste Baiano pode receber suporte?
+[Resposta] Com certeza! Temos uma frota de unidades técnicas de campo baseada estrategicamente em Barreiras e Luís Eduardo Magalhães. Atendemos fazendas, sedes agrícolas e comércios no interior da Bahia (como São Desidério, Formosa do Rio Preto, Angical e região circunvizinha) com suporte presencial e ferramental completo para manutenção ágil e fusão de fibras de rede.
+
+---
+[Pergunta 4] Vocês trabalham com equipamentos e marcas renomadas?
+[Resposta] Sim. Todos os projetos da Link Alarmes utilizam marcas que são referências de segurança cibernética e durabilidade em nível mundial, tais como Intelbras, Hikvision, Furukawa e Ubiquiti. Não utilizamos dispositivos de procedência duvidosa ou sem homologação. A segurança dos seus dados de monitoramento é protegida com criptografia ponta a ponta.
+
+---
+[Pergunta 5] A equipe da Link Alarmes realmente possui engenheiros experientes?
+[Resposta] Esse é o nosso maior orgulho. Nossa liderança técnica e engenheiros de segurança eletrônica acumulam mais de 15 anos de experiência contínua no mercado brasileiro de alta tecnologia corporativa e residencial. Isso garante que seu projeto não tenha falhas de cobertura (pontos cegos de câmeras), que seus cabos de rede sejam certificados digitalmente e que a instalação seja totalmente imune a interferências eletromagnéticas.
+
+--------------------------------------------------------------------------------
+4. TEXTOS PARA O FORMULÁRIO DE CONTATO DO SITE
+--------------------------------------------------------------------------------
+[Título da Seção / Header do Formulário]
+Dê o Primeiro Passo Para Blindar Seu Patrimônio e Otimizar Suas Redes
+
+[Subtítulo de Apoio do Formulário]
+Preencha os campos rápidos abaixo. Nossa equipe sênior de engenharia técnica entrará em contato para agendar seu diagnóstico sem custo.
+
+[Nomes e Legendas dos Campos (Placeholder Copy)]
+• Campo 1: Nome Completo / Nome da Empresa
+  *Placeholder:* "Ex: Roberto Silveira / AgroBahia S.A."
+• Campo 2: E-mail para Contato
+  *Placeholder:* "Ex: roberto@agrobahia.com.br"
+• Campo 3: WhatsApp de Contato Direto
+  *Placeholder:* "Ex: (77) 99930-2140"
+• Campo 4: Cidade / Localidade
+  *Placeholder:* "Ex: Luís Eduardo Magalhães - BA"
+• Campo 5: Tipo de Projeto Desejado
+  *Opções de Seleção:* 
+   - [ ] Segurança Residencial (Alarmes & Câmeras)
+   - [ ] Segurança Comercial / CFTV Inteligente
+   - [ ] Controle de Acesso Corporativo / Facial
+   - [ ] Redes, Wi-Fi 6 & Cabeamento Estruturado
+   - [ ] Suporte e Plantão Emergencial 24h
+• Campo 6: Como Podemos te Ajudar Hoje?
+  *Placeholder:* "Ex: Gostaria de blindar as portarias do meu condomínio com reconhecimento facial e otimizar o sinal Wi-Fi dos escritórios."
+
+[Texto do Botão de Envio do Formulário]
+Solicitar Diagnóstico Técnico de +15 Anos de Experiência
+
+[Mensagem de Confirmação de Envio com Sucesso]
+🔒 Dados Blindados com Sucesso! 
+Sua solicitação foi recebida diretamente por nossa equipe de engenharia sênior. Um engenheiro de segurança com mais de 15 anos de experiência prática entrará em contato via WhatsApp ou E-mail em no máximo 2 horas úteis para apresentar suas primeiras diretrizes de proteção e agendar sua visita técnica gratuita. Se preferir atendimento imediato, clique aqui para falar com o suporte via WhatsApp: https://wa.me/5577999302140?text=Olá!+Gostaria+de+solicitar+um+orçamento+com+a+Link+Alarmes.

@@ -1,0 +1,81 @@
+================================================================================
+ARQUIVO: legal.txt
+DESCRICÃO: Termos de Uso e Política de Privacidade de Dados (LGPD) da Link Alarmes.
+CONVERSÃO: Transparência legal completa, confiança do usuário e conformidade regulatória.
+================================================================================
+
+--------------------------------------------------------------------------------
+PARTE 1: TERMOS E CONDIÇÕES DE USO DO SITE
+--------------------------------------------------------------------------------
+
+Seja bem-vindo ao site oficial da Link Alarmes (https://wa.me/5577999302140?text=Olá!+Gostaria+de+solicitar+um+orçamento+com+a+Link+Alarmes.).
+
+Ao navegar, acessar ou interagir com nosso site, preencher nossos formulários de contato ou utilizar nossos canais de conversação como o WhatsApp, você concorda expressa e integralmente com os presentes Termos e Condições de Uso. Caso não concorde com qualquer disposição aqui descrita, orientamos que interrompa a navegação imediatamente.
+
+1. Finalidade do Portal
+O site da Link Alarmes tem como objetivo principal apresentar ao público corporativo, residencial e do agronegócio nossas soluções profissionais em segurança eletrônica de ponta, monitoramento de alarmes, CFTV inteligente, controle de acesso e engenharia de redes corporativas. As informações disponibilizadas têm caráter estritamente institucional, informativo e comercial.
+
+2. Propriedade Intelectual e Autoral
+Todo o conteúdo disponível neste site — incluindo, mas não se limitando a, textos persuasivos, descritivos de soluções, logotipos, imagens conceituais, ícones, esquemas de engenharia, layouts e códigos-fonte — é de propriedade exclusiva da Link Alarmes ou de seus licenciadores, estando protegido pela legislação nacional de direitos autorais e propriedade intelectual. É expressamente vedada a reprodução total ou parcial, cópia, distribuição ou modificação de qualquer material sem nossa prévia e expressa autorização por escrito.
+
+3. Limitação de Responsabilidade
+A Link Alarmes atua com diligência extrema para garantir que as informações, especificações técnicas e artigos de blog contidos neste website sejam precisos e atualizados. Contudo, o conteúdo é fornecido "no estado em que se encontra", não constituindo garantia contratual expressa de eficácia técnica ou promessa absoluta de imunidade contra ações delituosas de terceiros. 
+
+A contratação efetiva de nossos serviços de monitoramento, instalação e suporte emergencial é regida por contratos de prestação de serviços individuais e específicos de engenharia, onde ficam pactuadas as condições técnicas de cada projeto sob medida.
+
+4. Links de Terceiros e Canais Externos
+Para otimizar o seu atendimento, nosso site disponibiliza links diretos de direcionamento para o aplicativo de mensagens WhatsApp. O uso de tais canais externos de terceiros é regido pelas políticas de privacidade e termos de uso do próprio fornecedor (Meta Inc.), não possuindo a Link Alarmes qualquer gerência ou responsabilidade sobre a estabilidade ou segurança das plataformas de terceiros.
+
+--------------------------------------------------------------------------------
+PARTE 2: POLÍTICA DE PRIVACIDADE E PROTEÇÃO DE DADOS (LGPD)
+--------------------------------------------------------------------------------
+
+A Link Alarmes valoriza a sua privacidade de forma inabalável. Como uma das marcas líderes em engenharia de segurança eletrônica de elite e infraestrutura de redes estruturadas no Oeste Baiano (Barreiras, Luís Eduardo Magalhães e região circunvizinha), a proteção de dados pessoais não é apenas uma obrigação legal, mas um pilar fundamental da nossa relação de confiança e blindagem corporativa.
+
+Esta Política de Privacidade descreve de forma transparente quais dados pessoais coletamos, como os tratamos, armazenamos e protegemos, em estrita conformidade com a Lei Geral de Proteção de Dados Pessoais (LGPD - Lei nº 13.709/2018).
+
+1. Dados Pessoais Coletados e Finalidades do Tratamento
+Nós tratamos dados pessoais em duas esferas operacionais distintas:
+
+A) Dados de Contato e Prospecção Comercial (Através do Site e WhatsApp)
+• Quais dados: Nome completo, endereço de e-mail, número de telefone/WhatsApp, cidade, tipo de imóvel e descrição do interesse técnico.
+• Finalidade: Responder às suas mensagens, realizar agendamentos de diagnósticos técnicos gratuitos, elaborar orçamentos e propostas comerciais sob medida, e enviar atualizações relevantes dos nossos serviços.
+• Base Legal: Execução de medidas pré-contratuais e consentimento expresso do titular (Artigo 7º, incisos V e I da LGPD).
+
+B) Dados de Segurança Eletrônica e Monitoramento (Prestação de Serviços Contratados)
+• Quais dados: Imagens captadas por câmeras de CFTV inteligente, dados de biometria ou reconhecimento facial de controle de acesso, logs de entrada e saída de veículos/pessoas e registros de acionamento de centrais de alarmes.
+• Finalidade: Garantir a proteção da vida, a incolumidade física do titular e de terceiros, a segurança patrimonial e a prevenção de fraudes e delitos nas dependências monitoradas de nossos clientes residenciais e corporativos.
+• Base Legal: Proteção da vida ou da incolumidade física do titular ou de terceiros (Artigo 7º, inciso VII da LGPD); e Legítimo Interesse do controlador (Artigo 7º, inciso IX da LGPD) voltado à segurança física e de bens.
+
+2. Confidencialidade e Compartilhamento de Dados
+A Link Alarmes assegura confidencialidade estrita sobre todos os dados coletados. 
+• Nós NUNCA vendemos, comercializamos ou compartilhamos seus dados pessoais para fins de publicidade de terceiros.
+• O acesso às gravações de câmeras, históricos de acessos e logs de alarmes é restrito estritamente a técnicos seniores homologados de +15 anos de experiência prática e engenheiros de suporte autorizados da central de monitoramento, sob rigoroso controle de acesso e auditoria interna.
+• O compartilhamento com autoridades públicas e forças de segurança (como Polícia Civil ou Militar) ocorre exclusivamente para fins de investigação criminal, mediante requisição legal fundamentada ou ordem judicial expressa, nos termos da legislação aplicável.
+
+3. Segurança Cibernética e Armazenamento dos Dados
+Para assegurar a blindagem digital de suas informações, a Link Alarmes implementa medidas de segurança técnicas e administrativas avançadas, adequadas ao setor de segurança eletrônica de alta tecnologia:
+• Criptografia ponta a ponta na transmissão de dados das câmeras inteligentes de CFTV e controle de acesso para nossos servidores seguros.
+• Firewalls ativos e sistemas de detecção de intrusão lógica nas nossas infraestruturas de servidores e cabeamento estruturado corporativo.
+• Redundância de backups com isolamento de redes (VLANs dedicadas).
+• As gravações de imagens de monitoramento são armazenadas em servidores protegidos por prazos definidos em contrato de prestação de serviços (geralmente entre 15 a 30 dias), sendo automática e definitivamente eliminadas após esse período, salvo em casos de incidentes sob investigação onde as imagens devem ser preservadas como prova material.
+
+4. Seus Direitos como Titular dos Dados
+A LGPD assegura a você uma série de direitos em relação aos seus dados pessoais tratados por nós. Você poderá exercer estes direitos a qualquer momento mediante requisição:
+• Confirmação da existência de tratamento dos seus dados.
+• Acesso facilitado aos seus dados pessoais de cadastro comercial.
+• Correção de dados incompletos, inexatos ou desatualizados.
+• Eliminação de dados de contato tratados com base no seu consentimento comercial (descadastro de mailing ou listas de contato).
+• Revogação do consentimento para contatos de marketing.
+
+5. Encarregado pelo Tratamento de Dados Pessoais (DPO)
+Para exercer seus direitos legais ou esclarecer quaisquer dúvidas sobre como a Link Alarmes protege seus dados de monitoramento e de contato, entre em contato diretamente com o nosso Encarregado de Proteção de Dados (DPO) pelo e-mail ou WhatsApp corporativo oficial indicado abaixo:
+
+• Canal Oficial de Atendimento LGPD / DPO:
+  WhatsApp Link: https://wa.me/5577999302140?text=Olá!+Gostaria+de+solicitar+um+orçamento+com+a+Link+Alarmes.
+
+6. Atualizações da Política
+Esta Política de Privacidade poderá passar por atualizações periódicas decorrentes de melhorias tecnológicas nos nossos sistemas de IA e cabeamento de rede, ou por adequações de regulamentos da Autoridade Nacional de Proteção de Dados (ANPD). Qualquer alteração significativa será sinalizada em nosso portal institucional.
+
+Oeste da Bahia, 27 de Maio de 2026.
+Link Alarmes - Engenharia de Segurança de Elite.
