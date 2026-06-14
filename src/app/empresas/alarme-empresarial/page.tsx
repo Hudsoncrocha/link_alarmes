@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 };
 
 export default function AlarmeEmpresarial() {
-  const whatsappUrl = "https://wa.me/5511910984454?text=Olá!+Gostaria+de+solicitar+um+orçamento+para+um+projeto+de+alarme+personalizado+para+minha+empresa.";
+  const whatsappUrl = "/whatsapp?origin=alarme-empresarial";
 
   const vantagens = [
     {

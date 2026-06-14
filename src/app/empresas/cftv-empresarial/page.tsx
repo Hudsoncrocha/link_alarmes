@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 };
 
 export default function CftvEmpresarial() {
-  const whatsappUrl = "https://wa.me/5511910984454?text=Olá!+Gostaria+de+solicitar+um+orçamento+para+câmeras+de+segurança+para+minha+empresa.";
+  const whatsappUrl = "/whatsapp?origin=cftv-empresarial";
 
   const dores = [
     {

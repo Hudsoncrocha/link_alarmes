@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
-  const whatsappUrl = "https://wa.me/5511910984454?text=Olá!+Gostaria+de+solicitar+um+orçamento+com+a+Link+Alarmes.";
+  const whatsappUrl = "/whatsapp?origin=home";
 
   return (
     <div className="flex flex-col w-full bg-slate-950 text-slate-100 overflow-x-hidden font-sans">
