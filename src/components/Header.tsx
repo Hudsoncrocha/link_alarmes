@@ -15,9 +15,9 @@ export default function Header() {
 
   const menuItems = [
     { name: "Início", href: "/" },
-    { name: "Soluções Residenciais", href: "/residencial" },
-    { name: "Soluções Empresariais", href: "/empresas" },
-    { name: "Soluções para Condomínios", href: "/condominios" },
+    { name: "Residencial", href: "/residencial" },
+    { name: "Empresas", href: "/empresas" },
+    { name: "Condomínios", href: "/condominios" },
     { name: "Cercas Elétricas", href: "/cercas-eletricas" },
     { name: "Blog", href: "/blog" },
     { name: "Contato", href: "/atendimento" },
@@ -46,9 +46,9 @@ export default function Header() {
             LINK <span className="text-white group-hover:text-cyan-400 transition-colors">ALARMES</span>
           </span>
         </Link>
-
+ 
         {/* Desktop Navigation */}
-        <nav className="hidden xl:flex items-center gap-4 lg:gap-6">
+        <nav className="hidden xl:flex items-center gap-5 2xl:gap-8">
           {menuItems.map((item) => (
             <Link
               key={item.href}
