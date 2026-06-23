@@ -73,9 +73,9 @@ export default function AlarmeEmpresarial() {
             A maioria dos empresários considera o alarme monitorado um excelente investimento, mas quem realmente aprova destaca um fator crucial: o sistema precisa ser personalizado para a realidade do negócio.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
-            <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="btn-neon-blue text-sm px-8 py-4 flex gap-2 items-center justify-center bg-gradient-to-r from-blue-600 to-cyan-500 border-none shadow-[0_0_15px_rgba(6,182,212,0.2)]">
+            <Link href={whatsappUrl} className="btn-neon-blue text-sm px-8 py-4 flex gap-2 items-center justify-center bg-gradient-to-r from-blue-600 to-cyan-500 border-none shadow-[0_0_15px_rgba(6,182,212,0.2)]">
               Orçamento de Alarme Customizado
-            </a>
+            </Link>
             <Link href="/atendimento" className="btn-neon-outline text-sm px-8 py-4 flex items-center justify-center">
               Solicitar Contato Técnico
             </Link>

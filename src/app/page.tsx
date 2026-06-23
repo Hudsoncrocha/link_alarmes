@@ -47,17 +47,15 @@ export default function Home() {
 
           {/* CTA & Trust Badges */}
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto">
-            <a
+            <Link
               href={whatsappUrl}
-              target="_blank"
-              rel="noopener noreferrer"
               className="btn-neon-blue w-full sm:w-auto text-base px-8 py-4 flex gap-2 items-center justify-center group"
             >
               <svg className="h-5 w-5 fill-current" viewBox="0 0 24 24">
                 <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.73-1.45L0 24zm6.59-4.846c1.62.963 3.203 1.493 4.716 1.495 5.495.002 9.965-4.469 9.968-9.97.001-2.664-1.034-5.169-2.915-7.052C16.535 1.744 14.04 .71 11.99.713 6.495.713 2.025 5.184 2.022 10.686c-.001 1.636.43 3.226 1.251 4.634L2.28 21.65l6.367-1.672-.001-.024z" />
               </svg>
               Falar com um Especialista Agora
-            </a>
+            </Link>
             
             <Link
               href="/a-empresa"

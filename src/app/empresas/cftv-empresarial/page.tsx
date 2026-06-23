@@ -50,9 +50,9 @@ export default function CftvEmpresarial() {
             A grande maioria das empresas considera a instalação de câmeras um excelente investimento. O retorno vem na forma de prevenção, redução de furtos, diminuição de processos trabalhistas e aumento na produtividade da equipe.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
-            <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="btn-neon-blue text-sm px-8 py-4 flex gap-2 items-center justify-center bg-gradient-to-r from-blue-600 to-cyan-500 border-none shadow-[0_0_15px_rgba(6,182,212,0.2)]">
+            <Link href={whatsappUrl} className="btn-neon-blue text-sm px-8 py-4 flex gap-2 items-center justify-center bg-gradient-to-r from-blue-600 to-cyan-500 border-none shadow-[0_0_15px_rgba(6,182,212,0.2)]">
               Orçamento por WhatsApp
-            </a>
+            </Link>
             <Link href="/atendimento" className="btn-neon-outline text-sm px-8 py-4 flex items-center justify-center">
               Solicitar Contato Técnico
             </Link>
