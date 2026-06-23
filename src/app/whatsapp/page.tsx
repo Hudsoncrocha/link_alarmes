@@ -83,10 +83,10 @@ function WhatsappRedirectInner() {
     
     setRedirectUrl(url);
 
-    // 5. Aguardar 1.2 segundos (tempo suficiente para as tags do GTM dispararem) e redirecionar
+    // 5. Aguardar 2 segundos (tempo suficiente para as tags do GTM dispararem) e redirecionar
     const timer = setTimeout(() => {
       window.location.href = url;
-    }, 1200);
+    }, 2000);
 
     return () => clearTimeout(timer);
   }, [searchParams]);
