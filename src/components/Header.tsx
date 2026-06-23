@@ -18,6 +18,7 @@ export default function Header() {
     { name: "Soluções Residenciais", href: "/residencial" },
     { name: "Soluções Empresariais", href: "/empresas" },
     { name: "Soluções para Condomínios", href: "/condominios" },
+    { name: "Cercas Elétricas", href: "/cercas-eletricas" },
     { name: "Blog", href: "/blog" },
     { name: "Contato", href: "/atendimento" },
   ];
