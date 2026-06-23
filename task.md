@@ -43,6 +43,13 @@ Este arquivo serve como o painel de controle e acompanhamento (Task Tracker) lid
 - [x] Validação de Tags de SEO (Meta titles, descriptions, OpenGraph) em todas as rotas <!-- id: 5.1 -->
 - [x] Teste de Build do Next.js para garantir que não há erros de tipagem TypeScript ou de compilação <!-- id: 5.2 -->
 
+### 🏷️ Fase 6: Rastreamento e Marketing (GTM, GA4, Google Ads)
+- [x] Integração do container do Google Tag Manager (GTM) no layout global <!-- id: 6.1 -->
+- [x] Implementação do script de salvamento de UTMs e Gclid no SessionStorage <!-- id: 6.2 -->
+- [x] Criação da rota `/whatsapp` para registrar eventos no dataLayer e redirecionar com segurança <!-- id: 6.3 -->
+- [x] Desenvolvimento do interceptador de cliques global para rastrear todos os botões de WhatsApp do site <!-- id: 6.4 -->
+- [x] Configuração e publicação das tags do GA4 e Google Ads no container do GTM <!-- id: 6.5 -->
+
 ---
 
 ## 🗂️ Estrutura de Arquivos Criada/Planejada
