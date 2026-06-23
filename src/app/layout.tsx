@@ -109,6 +109,42 @@ export default function RootLayout({
           }}
         />
         {/* End Capture UTMs */}
+        {/* Intercept wa.me links globally and route through /whatsapp redirection */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                try {
+                  document.addEventListener('click', function(e) {
+                    var target = e.target;
+                    while (target && target.tagName !== 'A') {
+                      target = target.parentNode;
+                    }
+                    if (target && target.href && target.href.indexOf('wa.me') !== -1) {
+                      e.preventDefault();
+                      var pathname = window.location.pathname;
+                      var origin = pathname.replace(/^\\/+|\\/+$/g, '').replace(/\\//g, '-') || 'home';
+                      var search = window.location.search;
+                      
+                      var newSearch = '';
+                      if (search) {
+                        var params = new URLSearchParams(search);
+                        params.set('origin', origin);
+                        newSearch = '?' + params.toString();
+                      } else {
+                        newSearch = '?origin=' + origin;
+                      }
+                      
+                      window.location.href = '/whatsapp' + newSearch;
+                    }
+                  });
+                } catch(e) {
+                  console.error('Error intercepting wa.me click:', e);
+                }
+              })();
+            `,
+          }}
+        />
       </head>
       <body className="min-h-full flex flex-col bg-slate-950 text-slate-100 selection:bg-cyan-500 selection:text-slate-950">
         {/* Google Tag Manager (noscript) */}
