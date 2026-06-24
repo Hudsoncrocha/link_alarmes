@@ -46,12 +46,9 @@ export default function ControleDeAcessoResidencial() {
             Elimine chaves mecânicas e traga mais segurança e comodidade para sua rotina com tecnologia digital. Projetos e instalações executados por técnicos experientes.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
-            <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="btn-neon-blue text-sm px-8 py-4 flex gap-2 items-center justify-center">
+            <a href={whatsappUrl} className="btn-neon-blue text-sm px-8 py-4 flex gap-2 items-center justify-center">
               Falar no WhatsApp
             </a>
-            <Link href="/atendimento" className="btn-neon-outline text-sm px-8 py-4 flex items-center justify-center">
-              Solicitar Contato Técnico
-            </Link>
           </div>
         </div>
       </section>

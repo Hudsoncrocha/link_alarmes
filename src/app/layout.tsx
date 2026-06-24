@@ -124,18 +124,27 @@ export default function RootLayout({
                       e.preventDefault();
                       var pathname = window.location.pathname;
                       var origin = pathname.replace(/^\\/+|\\/+$/g, '').replace(/\\//g, '-') || 'home';
-                      var search = window.location.search;
                       
-                      var newSearch = '';
-                      if (search) {
-                        var params = new URLSearchParams(search);
-                        params.set('origin', origin);
-                        newSearch = '?' + params.toString();
-                      } else {
-                        newSearch = '?origin=' + origin;
+                      // Extract custom text from target wa.me link
+                      var targetText = '';
+                      try {
+                        var targetUrlParts = target.href.split('?');
+                        if (targetUrlParts.length > 1) {
+                          var targetParams = new URLSearchParams(targetUrlParts[1]);
+                          targetText = targetParams.get('text') || '';
+                        }
+                      } catch(err) {
+                        console.error('Error parsing target text:', err);
                       }
                       
-                      window.location.href = '/whatsapp' + newSearch;
+                      var search = window.location.search;
+                      var params = new URLSearchParams(search);
+                      params.set('origin', origin);
+                      if (targetText) {
+                        params.set('wpp_text', targetText);
+                      }
+                      
+                      window.location.href = '/whatsapp?' + params.toString();
                     }
                   });
                 } catch(e) {

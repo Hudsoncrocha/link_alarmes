@@ -46,12 +46,9 @@ export default function WifiCorporativo() {
             Acabe de vez com o sinal oscilante e roteadores residenciais que travam com mais de dez dispositivos conectados. Projetamos coberturas estáveis e robustas para escritórios, clínicas e galpões comerciais.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
-            <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="btn-neon-blue text-sm px-8 py-4 flex gap-2 items-center justify-center bg-gradient-to-r from-blue-600 to-cyan-500 border-none shadow-[0_0_15px_rgba(6,182,212,0.2)]">
+            <a href={whatsappUrl} className="btn-neon-blue text-sm px-8 py-4 flex gap-2 items-center justify-center bg-gradient-to-r from-blue-600 to-cyan-500 border-none shadow-[0_0_15px_rgba(6,182,212,0.2)]">
               Projetar Cobertura Wi-Fi B2B
             </a>
-            <Link href="/atendimento" className="btn-neon-outline text-sm px-8 py-4 flex items-center justify-center">
-              Falar com Engenheiro Técnico
-            </Link>
           </div>
         </div>
       </section>

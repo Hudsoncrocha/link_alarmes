@@ -16,6 +16,7 @@ function WhatsappRedirectInner() {
     const utmTerm = searchParams.get("utm_term") || (typeof window !== "undefined" ? sessionStorage.getItem("utm_term") : "") || "";
     const gclid = searchParams.get("gclid") || (typeof window !== "undefined" ? sessionStorage.getItem("gclid") : "") || "";
     const origin = searchParams.get("origin") || "geral";
+    const wppText = searchParams.get("wpp_text") || "";
 
     // 2. Disparar evento no dataLayer para o Google Tag Manager (GTM) / Google Analytics / Google Ads
     if (typeof window !== "undefined") {
@@ -34,41 +35,46 @@ function WhatsappRedirectInner() {
     }
 
     // 3. Mapear a mensagem personalizada com base na origem do clique
-    let mensagemBase = "Olá! Gostaria de falar com um especialista sobre segurança eletrônica e infraestrutura.";
+    let mensagemBase = wppText || "Olá! Gostaria de falar com um especialista sobre segurança eletrônica e infraestrutura.";
 
-    switch (origin) {
-      // Pilar Residencial
-      case "alarme-residencial":
-        mensagemBase = "Olá! Gostaria de solicitar um orçamento de Alarme Residencial personalizado para minha casa.";
-        break;
-      case "cameras-residenciais":
-        mensagemBase = "Olá! Gostaria de solicitar um orçamento para instalação de câmeras de segurança na minha casa.";
-        break;
-      case "seguranca-perimetral":
-        mensagemBase = "Olá! Gostaria de solicitar um orçamento de cerca elétrica industrial para minha casa.";
-        break;
-      case "wifi-residencial":
-        mensagemBase = "Olá! Gostaria de solicitar um orçamento de rede Wi-Fi estável para minha casa.";
-        break;
-      case "casa-alto-padrao":
-        mensagemBase = "Olá! Gostaria de falar com um especialista sobre o projeto de segurança e redes para uma residência de alto padrão.";
-        break;
-      // Pilar Empresarial
-      case "cftv-empresarial":
-        mensagemBase = "Olá! Gostaria de solicitar um orçamento de sistema de câmeras de segurança (CFTV) para minha empresa.";
-        break;
-      case "alarme-empresarial":
-        mensagemBase = "Olá! Gostaria de solicitar um orçamento de sistema de alarme monitorado personalizado para minha empresa.";
-        break;
-      case "rede-estruturada":
-        mensagemBase = "Olá! Gostaria de solicitar um orçamento de cabeamento estruturado e redes para minha empresa.";
-        break;
-      case "wifi-corporativo":
-        mensagemBase = "Olá! Gostaria de solicitar um orçamento de Wi-Fi 6 corporativo para minha empresa.";
-        break;
-      case "infraestrutura-ti":
-        mensagemBase = "Olá! Gostaria de solicitar um orçamento de infraestrutura de TI, nobreaks e switches para minha empresa.";
-        break;
+    if (!wppText) {
+      switch (origin) {
+        // Pilar Residencial
+        case "alarme-residencial":
+          mensagemBase = "Olá! Gostaria de solicitar um orçamento de Alarme Residencial personalizado para minha casa.";
+          break;
+        case "cameras-residenciais":
+          mensagemBase = "Olá! Gostaria de solicitar um orçamento para instalação de câmeras de segurança na minha casa.";
+          break;
+        case "seguranca-perimetral":
+          mensagemBase = "Olá! Gostaria de solicitar um orçamento de cerca elétrica industrial para minha casa.";
+          break;
+        case "cercas-eletricas":
+          mensagemBase = "Olá! Gostaria de solicitar um orçamento de Cerca Elétrica para minha residência em São Paulo.";
+          break;
+        case "wifi-residencial":
+          mensagemBase = "Olá! Gostaria de solicitar um orçamento de rede Wi-Fi estável para minha casa.";
+          break;
+        case "casa-alto-padrao":
+          mensagemBase = "Olá! Gostaria de falar com um especialista sobre o projeto de segurança e redes para uma residência de alto padrão.";
+          break;
+        // Pilar Empresarial
+        case "cftv-empresarial":
+          mensagemBase = "Olá! Gostaria de solicitar um orçamento de sistema de câmeras de segurança (CFTV) para minha empresa.";
+          break;
+        case "alarme-empresarial":
+          mensagemBase = "Olá! Gostaria de solicitar um orçamento de sistema de alarme monitorado personalizado para minha empresa.";
+          break;
+        case "rede-estruturada":
+          mensagemBase = "Olá! Gostaria de solicitar um orçamento de cabeamento estruturado e redes para minha empresa.";
+          break;
+        case "wifi-corporativo":
+          mensagemBase = "Olá! Gostaria de solicitar um orçamento de Wi-Fi 6 corporativo para minha empresa.";
+          break;
+        case "infraestrutura-ti":
+          mensagemBase = "Olá! Gostaria de solicitar um orçamento de infraestrutura de TI, nobreaks e switches para minha empresa.";
+          break;
+      }
     }
 
     let metadados = `\n\n[Ref: ${origin}`;

@@ -165,12 +165,9 @@ export default function CondominiosPortal() {
             Solicite uma análise preliminar gratuita de segurança e viabilidade técnica financeira de portaria remota para o seu condomínio.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
-            <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="btn-neon-emerald text-sm px-8 py-4 flex gap-2 items-center justify-center bg-gradient-to-r from-emerald-600 to-teal-500 border-none shadow-[0_0_15px_rgba(16,185,129,0.2)]">
+            <a href={whatsappUrl} className="btn-neon-emerald text-sm px-8 py-4 flex gap-2 items-center justify-center bg-gradient-to-r from-emerald-600 to-teal-500 border-none shadow-[0_0_15px_rgba(16,185,129,0.2)]">
               Chamar no WhatsApp
             </a>
-            <Link href="/atendimento" className="btn-neon-outline text-sm px-8 py-4 flex items-center justify-center hover:border-emerald-500/50 hover:text-emerald-400">
-              Agendar Reunião de Apresentação
-            </Link>
           </div>
         </div>
       </section>

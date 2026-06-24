@@ -56,13 +56,6 @@ export default function Home() {
               </svg>
               Falar com um Especialista Agora
             </Link>
-            
-            <Link
-              href="/a-empresa"
-              className="btn-neon-outline w-full sm:w-auto text-base px-8 py-4"
-            >
-              Conhecer a Empresa
-            </Link>
           </div>
 
           {/* Microcopy Benefits under buttons */}

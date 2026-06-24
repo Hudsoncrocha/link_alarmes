@@ -46,12 +46,9 @@ export default function InfraestruturaCondominio() {
             Elimine as dores de manutenção constante com interfonia tradicional antiga. Desenvolvemos redes e cabeamentos digitais robustos para condomínios residenciais e comerciais de alta densidade.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
-            <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="btn-neon-emerald text-sm px-8 py-4 flex gap-2 items-center justify-center bg-gradient-to-r from-emerald-600 to-teal-500 border-none shadow-[0_0_15px_rgba(16,185,129,0.2)]">
+            <a href={whatsappUrl} className="btn-neon-emerald text-sm px-8 py-4 flex gap-2 items-center justify-center bg-gradient-to-r from-emerald-600 to-teal-500 border-none shadow-[0_0_15px_rgba(16,185,129,0.2)]">
               Projetar Infraestrutura Condominial
             </a>
-            <Link href="/atendimento" className="btn-neon-outline text-sm px-8 py-4 flex items-center justify-center hover:border-emerald-500/50 hover:text-emerald-400">
-              Falar com Engenheiro Técnico
-            </Link>
           </div>
         </div>
       </section>

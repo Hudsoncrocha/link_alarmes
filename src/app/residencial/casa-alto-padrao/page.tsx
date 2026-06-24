@@ -31,12 +31,9 @@ export default function CasaAltoPadrao() {
             Fugimos do conceito de "kit residencial padrão". Desenhamos projetos onde segurança, conexões de internet e controle de acesso funcionam de forma integrada, com infraestrutura organizada e acabamento discreto.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
-            <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="btn-neon-blue text-sm px-8 py-4 flex gap-2 items-center justify-center">
+            <a href={whatsappUrl} className="btn-neon-blue text-sm px-8 py-4 flex gap-2 items-center justify-center">
               Falar no WhatsApp
             </a>
-            <Link href="/atendimento" className="btn-neon-outline text-sm px-8 py-4 flex items-center justify-center">
-              Solicitar Contato Técnico
-            </Link>
           </div>
         </div>
       </section>
@@ -279,7 +276,7 @@ export default function CasaAltoPadrao() {
                 </li>
               </ul>
               
-              <Link href="/atendimento" className="btn-neon-outline text-xs w-full py-3.5 flex items-center justify-center gap-2">
+              <Link href={whatsappUrl} className="btn-neon-outline text-xs w-full py-3.5 flex items-center justify-center gap-2">
                 <span>Falar com nosso Setor Técnico</span>
                 <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />

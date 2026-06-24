@@ -46,12 +46,9 @@ export default function GalpoesSegmento() {
             Proteja seus estoques de alto valor com o que há de melhor em tecnologia perimetral e CFTV de longo alcance. Projetos robustos desenhados em AutoCAD sob supervisão do Hudson (+15 anos exp).
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
-            <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="btn-neon-blue text-sm px-8 py-4 flex gap-2 items-center justify-center bg-gradient-to-r from-blue-600 to-cyan-500 border-none shadow-[0_0_15px_rgba(6,182,212,0.2)]">
+            <a href={whatsappUrl} className="btn-neon-blue text-sm px-8 py-4 flex gap-2 items-center justify-center bg-gradient-to-r from-blue-600 to-cyan-500 border-none shadow-[0_0_15px_rgba(6,182,212,0.2)]">
               Projetar Segurança para Galpão
             </a>
-            <Link href="/atendimento" className="btn-neon-outline text-sm px-8 py-4 flex items-center justify-center">
-              Falar com Engenheiro Técnico
-            </Link>
           </div>
         </div>
       </section>

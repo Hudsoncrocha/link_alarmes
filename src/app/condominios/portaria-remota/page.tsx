@@ -46,12 +46,9 @@ export default function PortariaRemotaCondominio() {
             Profissionalismo absoluto na triagem de visitantes e prestadores de serviços. Protegemos o seu prédio com redundância total de links e energia sob a engenharia sênior do Hudson.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
-            <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="btn-neon-emerald text-sm px-8 py-4 flex gap-2 items-center justify-center bg-gradient-to-r from-emerald-600 to-teal-500 border-none shadow-[0_0_15px_rgba(16,185,129,0.2)]">
+            <a href={whatsappUrl} className="btn-neon-emerald text-sm px-8 py-4 flex gap-2 items-center justify-center bg-gradient-to-r from-emerald-600 to-teal-500 border-none shadow-[0_0_15px_rgba(16,185,129,0.2)]">
               Mapear Viabilidade do Prédio
             </a>
-            <Link href="/atendimento" className="btn-neon-outline text-sm px-8 py-4 flex items-center justify-center hover:border-emerald-500/50 hover:text-emerald-400">
-              Falar com Engenheiro Técnico
-            </Link>
           </div>
         </div>
       </section>

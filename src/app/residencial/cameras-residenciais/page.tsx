@@ -46,12 +46,9 @@ export default function CamerasResidenciais() {
             Acompanhe o dia a dia da sua residência pelo seu celular. Temos sistema de câmeras com ótima qualidade de imagem, instalação discreta e garantia de 1 ano.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
-            <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="btn-neon-blue text-sm px-8 py-4 flex gap-2 items-center justify-center">
+            <a href={whatsappUrl} className="btn-neon-blue text-sm px-8 py-4 flex gap-2 items-center justify-center">
               Orçamento por WhatsApp
             </a>
-            <Link href="/atendimento" className="btn-neon-outline text-sm px-8 py-4 flex items-center justify-center">
-              Solicitar Contato Técnico
-            </Link>
           </div>
         </div>
       </section>
