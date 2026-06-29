@@ -22,9 +22,7 @@ export default function CercasEletricasSuperpage() {
       prefText += `\n- Forma de pagamento ideal: ${prefPagamento}`;
     }
     
-    // Fallback or UTMs
-    const metadados = `\n\n[Ref: cerca-eletrica-superpage]`;
-    const finalMessage = encodeURIComponent(baseMessage + prefText + metadados);
+    const finalMessage = encodeURIComponent(baseMessage + prefText);
     const wppNumber = "5511910984454";
     return `https://wa.me/${wppNumber}?text=${finalMessage}`;
   };

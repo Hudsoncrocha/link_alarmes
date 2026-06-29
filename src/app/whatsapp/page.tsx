@@ -77,13 +77,7 @@ function WhatsappRedirectInner() {
       }
     }
 
-    let metadados = `\n\n[Ref: ${origin}`;
-    if (utmSource) metadados += ` | Origem: ${utmSource}`;
-    if (utmCampaign) metadados += ` | Campanha: ${utmCampaign}`;
-    if (gclid) metadados += ` | Gclid: ${gclid}`;
-    metadados += "]";
-
-    const mensagemFinal = encodeURIComponent(mensagemBase + metadados);
+    const mensagemFinal = encodeURIComponent(mensagemBase);
     const wppNumber = "5511910984454";
     const url = `https://wa.me/${wppNumber}?text=${mensagemFinal}`;
     
