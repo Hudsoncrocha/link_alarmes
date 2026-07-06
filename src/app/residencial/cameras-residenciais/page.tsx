@@ -494,6 +494,67 @@ export default function CamerasResidenciais() {
         </div>
       </section>
 
+      {/* Payment Section (Facilidade de Pagamento) */}
+      <section className="py-24 bg-slate-900/20 border-b border-slate-900">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            
+            {/* Payment Content */}
+            <div className="lg:col-span-7 text-left">
+              <span className="text-xs font-bold text-emerald-400 uppercase tracking-widest bg-emerald-950/20 border border-emerald-500/10 px-3 py-1 rounded">
+                FACILIDADE DE PAGAMENTO
+              </span>
+              <h2 className="text-3xl font-bold text-white sm:text-4xl mt-4 leading-tight">
+                Como funciona o pagamento das câmeras?
+              </h2>
+              <p className="mt-6 text-sm text-slate-400 leading-relaxed">
+                O valor do projeto é definido sob medida com base no número de câmeras, tipo de infraestrutura e gravador necessário. Facilitamos a aquisição do seu sistema de segurança eletrônica com ótimas condições de pagamento:
+              </p>
+              
+              <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-6 pt-6 border-t border-slate-900/80">
+                <div>
+                  <h4 className="text-sm font-bold text-white uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span className="text-emerald-400">⚡</span> Desconto à vista no PIX
+                  </h4>
+                  <p className="text-xs text-slate-400 leading-relaxed">Condições comerciais exclusivas com desconto especial para fechamento do projeto à vista.</p>
+                </div>
+                <div>
+                  <h4 className="text-sm font-bold text-white uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <span className="text-cyan-400">💳</span> Parcelamento em até 6x
+                  </h4>
+                  <p className="text-xs text-slate-400 leading-relaxed">Divida a compra de seus equipamentos e instalação em até 6 vezes sem juros no cartão de crédito.</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Payment visual card */}
+            <div className="lg:col-span-5 flex justify-center lg:justify-end">
+              <div className="card-tech p-6 border border-slate-900 max-w-[420px] w-full flex flex-col justify-between min-h-[220px]">
+                <div className="flex justify-between items-center border-b border-slate-800 pb-3">
+                  <span className="text-[10px] text-slate-500 font-mono">// CONDIÇÕES DE PAGAMENTO</span>
+                  <span className="glow-dot-emerald"></span>
+                </div>
+                <div className="py-4 space-y-3">
+                  <div className="text-xs text-slate-300 font-mono flex justify-between">
+                    <span>PIX / TRANSFERÊNCIA:</span>
+                    <span className="text-emerald-400 font-bold">DESCONTO EXCLUSIVO</span>
+                  </div>
+                  <div className="text-xs text-slate-300 font-mono flex justify-between">
+                    <span>CARTÃO DE CRÉDITO:</span>
+                    <span className="text-cyan-400 font-bold">ATÉ 6X SEM JUROS</span>
+                  </div>
+                </div>
+                <div className="border-t border-slate-800 pt-3 flex justify-between items-center text-[9px] text-slate-500 font-mono">
+                  <span>VISA • MASTER • ELO • AMEX</span>
+                  <span className="text-white bg-cyan-600 px-2 py-0.5 rounded font-extrabold uppercase">100% SEGURO</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section className="py-24 bg-slate-900/30 border-b border-slate-900">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
