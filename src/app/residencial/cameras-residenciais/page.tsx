@@ -43,49 +43,13 @@ export default function CamerasResidenciais() {
     }
   ];
 
-  const produtos = [
-    {
-      nome: "Câmera Dome Interna IP",
-      categoria: "Ambientes Internos",
-      desc: "Compacta e discreta, ideal para monitorar salas, corredores e quartos com lente grande-angular.",
-      img: "https://http2.mlstatic.com/D_NQ_NP_2X_828767-MLB109506286633_032026-F.webp",
-      specs: ["Resolução Full HD 1080p", "Visão Noturna Inteligente", "Lente de 2.8mm (amplo campo)"]
-    },
-    {
-      nome: "Câmera Bullet IP Metálica",
-      categoria: "Áreas Externas",
-      desc: "Altamente resistente a sol e chuva. Excelente alcance de visão noturna para fachadas e garagens.",
-      img: "https://http2.mlstatic.com/D_NQ_NP_2X_956613-MLA99724876647_112025-F.webp",
-      specs: ["Certificação IP67 (Proteção total)", "Case metálico robusto", "Alcance infravermelho de 30m"]
-    },
-    {
-      nome: "Câmera Externa Wi-Fi Pro",
-      categoria: "Uso Flexível",
-      desc: "Equipada com duas antenas de alto ganho para ótima estabilidade sem necessidade de cabos de rede.",
-      img: "https://http2.mlstatic.com/D_NQ_NP_2X_784485-MLA109808909587_0320",
-      specs: ["Conexão Wi-Fi Inteligente", "Áudio bidirecional (Fale e Ouça)", "Gravação em MicroSD ou Nuvem"]
-    },
-    {
-      nome: "Câmera Dome Externa Premium",
-      categoria: "Fachadas e Quintais",
-      desc: "Modelo dome reforçado contra vandalismo, ideal para beirais e garagens externas.",
-      img: "https://http2.mlstatic.com/D_NQ_NP_2X_718289-MLB95528810022_102025-F.webp",
-      specs: ["Resistência Antivandalismo", "Sensor CMOS de alta sensibilidade", "Vedação especial contra umidade"]
-    },
-    {
-      nome: "Câmera Intelbras VIP Bullet",
-      categoria: "Segurança de Elite",
-      desc: "Câmera IP profissional com inteligência artificial ativa para reconhecimento e alertas inteligentes.",
-      img: "https://cdn.awsli.com.br/2616/2616015/arquivos/45c8eae8-0e07-418d-b1a8-12b8cc659594.jpg",
-      specs: ["IA: Detecção de Humanos e Carros", "Resolução Super HD 4MP", "Alimentação PoE (Cabo único)"]
-    },
-    {
-      nome: "Gravador de Vídeo NVR/NVD",
-      categoria: "Central de Processamento",
-      desc: "Gravador profissional capaz de gerenciar, armazenar e disponibilizar imagens na internet com segurança.",
-      img: "https://http2.mlstatic.com/D_NQ_NP_2X_966549-MLU77372558387_072024-F.webp",
-      specs: ["Armazenamento em HD Homologado", "Suporte a múltiplas câmeras IP", "App para celular grátis e rápido"]
-    }
+  const galeriaImagens = [
+    "https://http2.mlstatic.com/D_NQ_NP_2X_828767-MLB109506286633_032026-F.webp",
+    "https://http2.mlstatic.com/D_NQ_NP_2X_956613-MLA99724876647_112025-F.webp",
+    "https://http2.mlstatic.com/D_NQ_NP_2X_784485-MLA109808909587_0320",
+    "https://http2.mlstatic.com/D_NQ_NP_2X_718289-MLB95528810022_102025-F.webp",
+    "https://cdn.awsli.com.br/2616/2616015/arquivos/45c8eae8-0e07-418d-b1a8-12b8cc659594.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_2X_966549-MLU77372558387_072024-F.webp"
   ];
 
   const diferenciais = [
@@ -283,62 +247,24 @@ export default function CamerasResidenciais() {
         </div>
       </section>
 
-      {/* Equipment Showcase (Grid of 6 products - 2 rows of 3) */}
-      <section id="catalogo" className="py-24 bg-slate-900/30 border-b border-slate-900">
+      {/* Galeria de Fotos (2 rows of 3) */}
+      <section id="galeria" className="py-24 bg-slate-900/30 border-b border-slate-900">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           
-          <div className="text-center max-w-3xl mx-auto mb-20">
-            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl mt-4">
-              Equipamentos de Alta Performance para Sua Casa
+          <div className="text-center mb-16">
+            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+              Galeria de fotos
             </h2>
-            <p className="mt-4 text-slate-400 text-sm">
-              Trabalhamos com os melhores fabricantes do mercado. Nossos engenheiros selecionam a câmera ideal para a necessidade específica de cada ponto da sua residência.
-            </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {produtos.map((produto) => (
-              <div key={produto.nome} className="card-tech flex flex-col justify-between h-full border border-slate-900 hover:border-blue-500/20 transition-all duration-300">
-                <div>
-                  
-                  {/* Image container (Larger h-56) */}
-                  <div className="relative w-full h-56 rounded-lg bg-slate-950 border border-slate-900 p-4 mb-5 flex items-center justify-center overflow-hidden">
-                    <img
-                      src={produto.img}
-                      alt={produto.nome}
-                      className="max-h-full max-w-full object-contain transition-transform duration-500 hover:scale-110"
-                    />
-                    <span className="absolute top-2 left-2 text-[9px] font-bold text-cyan-400 uppercase bg-cyan-950/80 border border-cyan-800/50 px-2 py-0.5 rounded">
-                      {produto.categoria}
-                    </span>
-                  </div>
-
-                  <h3 className="text-base font-bold text-white mb-2 leading-tight">{produto.nome}</h3>
-                  <p className="text-[11px] text-slate-400 leading-relaxed mb-5">
-                    {produto.desc}
-                  </p>
-                </div>
-                
-                {/* Tech specifications */}
-                <div>
-                  <div className="border-t border-slate-800/80 pt-4 mb-5">
-                    <ul className="space-y-1.5 text-[10px] text-slate-300 font-mono">
-                      {produto.specs.map((spec, i) => (
-                        <li key={i} className="flex items-center gap-1.5">
-                          <span className="text-cyan-400 font-bold font-sans">»</span>
-                          <span>{spec}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-
-                  <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="btn-neon-outline text-xs w-full py-2.5 flex items-center justify-center gap-1 font-semibold">
-                    Solicitar Orçamento
-                    <svg className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
-                    </svg>
-                  </a>
-                </div>
+            {galeriaImagens.map((imgUrl, i) => (
+              <div key={i} className="relative aspect-[4/3] w-full rounded-2xl bg-slate-950 border border-slate-900/80 p-6 flex items-center justify-center overflow-hidden group shadow-[0_0_30px_rgba(0,0,0,0.3)] hover:border-cyan-500/20 transition-all duration-500">
+                <img
+                  src={imgUrl}
+                  alt="Equipamento de segurança residencial"
+                  className="max-h-full max-w-full object-contain transition-transform duration-700 group-hover:scale-110"
+                />
               </div>
             ))}
           </div>
