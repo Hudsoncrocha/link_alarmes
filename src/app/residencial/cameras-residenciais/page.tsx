@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Câmeras de Segurança Residenciais | Link Alarmes",
-  description: "Monitore sua residência em tempo real pelo celular com câmeras HD, inteligência artificial para detecção de humanos e gravação em nuvem segura. Instalação profissional limpa e sem fios soltos em São Paulo.",
+  description: "Monitore sua residência em tempo real pelo celular com câmeras HD, imagens Full HD, tenha 30 dias de gravação. Instalação profissional limpa e sem fios soltos em São Paulo.",
   keywords: "câmeras para casa, CFTV residencial, monitoramento residencial, câmeras de segurança, câmeras inteligentes, intelbras, link alarmes",
   alternates: {
     canonical: "/residencial/cameras-residenciais",
@@ -16,7 +16,7 @@ export default function CamerasResidenciais() {
   const dores = [
     {
       problema: "Imagens ruins à noite",
-      solucao: "Nossas câmeras contam com infravermelho inteligente ou tecnologia Full Color, entregando imagens coloridas mesmo no escuro total para identificação de rostos e placas.",
+      solucao: "Nossas câmeras contam com infravermelho inteligente ou tecnologia Full Color, entregando imagens coloridas mesmo no escuro total.",
       icon: (
         <svg className="w-5 h-5 text-rose-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
@@ -25,7 +25,7 @@ export default function CamerasResidenciais() {
     },
     {
       problema: "Fiação solta e exposta",
-      solucao: "Preservamos a estética do seu lar. Criamos infraestruturas exclusivas e discretas com canaletas e caixas organizadoras de conectores, protegendo os cabos das intempéries.",
+      solucao: "Preservamos a estética do seu lar. Criamos infraestruturas exclusivas e discretas com eletrodutos e caixas organizadoras de conectores, protegendo os cabos das intempéries.",
       icon: (
         <svg className="w-5 h-5 text-rose-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
@@ -34,7 +34,7 @@ export default function CamerasResidenciais() {
     },
     {
       problema: "Invasões sem gravação",
-      solucao: "Protegemos os seus registros. Instalamos sistemas com gravação redundante (NVR local + armazenamento seguro em nuvem) protegidos por nobreaks contra quedas de luz.",
+      solucao: "Protegemos os seus equipamentos. Instalamos seu gravador em lugares discretos e caixas de proteção. O uso de baterias tipo nobreaks evita parada com quedas de luz.",
       icon: (
         <svg className="w-5 h-5 text-rose-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
@@ -85,20 +85,6 @@ export default function CamerasResidenciais() {
       desc: "Gravador profissional capaz de gerenciar, armazenar e disponibilizar imagens na internet com segurança.",
       img: "https://http2.mlstatic.com/D_NQ_NP_2X_966549-MLU77372558387_072024-F.webp",
       specs: ["Armazenamento em HD Homologado", "Suporte a múltiplas câmeras IP", "App para celular grátis e rápido"]
-    },
-    {
-      nome: "Câmera Bullet Colorida Noturna",
-      categoria: "Visão Full Color",
-      desc: "Tecnologia com LEDs ativos que iluminam o local de forma discreta para gravar imagens coloridas à noite.",
-      img: "https://cdn.awsli.com.br/2616/2616015/arquivos/17155f2b-2fb5-4b87-900e-a5ad4d886c96.jpg",
-      specs: ["Noite Colorida (Full Color)", "Refletor LED inteligente", "Filtro ICR automático"]
-    },
-    {
-      nome: "Câmera Smart Compacta Wi-Fi",
-      categoria: "Segurança Prática",
-      desc: "Modelo compacto e flexível para monitoramento rápido e prático de portarias e pequenos cômodos.",
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXwTK_Gjw-40NjhzhbxPc8qhbjb-DXW6Sp-xPHMt8gLQ&s=10",
-      specs: ["Instalação rápida", "Conexão direta no app", "Sensor de movimento integrado"]
     }
   ];
 
@@ -155,24 +141,30 @@ export default function CamerasResidenciais() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             
             {/* Hero Text */}
-            <div className="lg:col-span-7 flex flex-col items-start text-left">
+            <div className="lg:col-span-6 flex flex-col items-start text-left">
               <Link href="/residencial" className="inline-flex items-center gap-1.5 text-xs font-bold text-cyan-400 hover:text-cyan-300 transition-colors uppercase tracking-wider mb-6 bg-cyan-950/30 border border-cyan-800/30 px-3 py-1 rounded-full">
                 <span>←</span> Voltar para Residencial
               </Link>
               
               <span className="text-xs font-bold text-blue-400 uppercase tracking-widest bg-blue-950/40 border border-blue-500/10 px-3.5 py-1.5 rounded-md mb-4">
-                TECNOLOGIA CFTV DE ELITE
+                SUA CASA PROTEGIDA
               </span>
               
-              <h1 className="max-w-2xl text-4xl font-extrabold tracking-tight text-white sm:text-5xl leading-tight">
-                Sua Casa Sob Seu Olhar, de Onde Você Estiver.
+              <h1 className="max-w-2xl text-3xl font-extrabold tracking-tight text-white sm:text-4xl leading-tight">
+                Tenha um sistema de câmeras em sua casa e não seja surpreendido.
               </h1>
               
-              <p className="mt-6 max-w-xl text-base text-slate-400 md:text-lg leading-relaxed">
-                Monitore toda a movimentação da sua residência em tempo real pelo celular. Câmeras em ultra definição com Inteligência Artificial para detecção humana e instalação profissional limpa, sem fios aparentes ou sujeira.
+              <p className="mt-6 max-w-xl text-sm text-slate-400 leading-relaxed">
+                Ideal para ver quem está no portão, checar sua rua antes de chegar, visualizar rotina de filhos, idosos, pets e seu veículo na rua ao vivo pelo seu celular. Desconto à vista ou em até 6x no cartão!
               </p>
               
               <ul className="mt-8 space-y-3.5 text-sm font-semibold text-slate-300">
+                <li className="flex items-center gap-3">
+                  <svg className="w-5 h-5 text-cyan-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
+                  </svg>
+                  Facilidade de pagamento
+                </li>
                 <li className="flex items-center gap-3">
                   <svg className="w-5 h-5 text-cyan-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
@@ -183,13 +175,7 @@ export default function CamerasResidenciais() {
                   <svg className="w-5 h-5 text-cyan-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
                   </svg>
-                  Inteligência artificial integrada que elimina alarmes falsos
-                </li>
-                <li className="flex items-center gap-3">
-                  <svg className="w-5 h-5 text-cyan-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
-                  </svg>
-                  Infraestrutura de cabos embutida e protegida
+                  Guarde 30 dias de gravação
                 </li>
                 <li className="flex items-center gap-3">
                   <svg className="w-5 h-5 text-cyan-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -201,18 +187,15 @@ export default function CamerasResidenciais() {
               
               <div className="mt-10 flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
                 <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="btn-neon-blue text-sm px-8 py-4 flex gap-2 items-center justify-center font-bold">
-                  Solicitar Orçamento Grátis
-                </a>
-                <a href="#catalogo" className="btn-neon-outline text-sm px-8 py-4 flex gap-2 items-center justify-center font-semibold">
-                  Ver Modelos de Câmeras
+                  Solicitar Orçamento
                 </a>
               </div>
             </div>
             
-            {/* Hero Image / Phone mockup */}
-            <div className="lg:col-span-5 relative w-full flex justify-center lg:justify-end">
-              <div className="relative p-1.5 rounded-2xl bg-gradient-to-br from-blue-500/10 via-cyan-500/5 to-slate-900 border border-slate-800 shadow-[0_0_50px_rgba(6,182,212,0.05)] group overflow-hidden max-w-[420px] w-full">
-                <div className="relative aspect-[3/4] sm:aspect-[4/5] w-full rounded-xl overflow-hidden bg-slate-950">
+            {/* Hero Image / Phone mockup (More width) */}
+            <div className="lg:col-span-6 relative w-full flex justify-center lg:justify-end">
+              <div className="relative p-1.5 rounded-2xl bg-gradient-to-br from-blue-500/10 via-cyan-500/5 to-slate-900 border border-slate-800 shadow-[0_0_50px_rgba(6,182,212,0.05)] group overflow-hidden max-w-[520px] w-full">
+                <div className="relative aspect-[4/3] w-full rounded-xl overflow-hidden bg-slate-950">
                   <img
                     src="https://s2-techtudo.glbimg.com/jnEO_Yn6nqGj9SlW7VH4aBgV2aA=/0x0:698x475/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/C/Q/PlIlVRRDWaEkRd2A7qyQ/intelbras-site.png"
                     alt="Aplicativo de visualização de câmeras ao vivo no celular"
@@ -230,9 +213,11 @@ export default function CamerasResidenciais() {
                   </div>
                 </div>
                 <div className="mt-4 px-4 pb-2 flex justify-between items-center text-[10px] text-slate-500 font-mono">
-                  <span>DISPOSITIVO MÓVEL</span>
-                  <span>ACESSO CLOUD</span>
-                  <span>SISTEMA ATIVO</span>
+                  <span>TRANSMISSÃO AO VIVO</span>
+                  <span>1080P HD</span>
+                  <span>PELO CELULAR</span>
+                  <span>SEM TRAVAR</span>
+                  <span>30 DIAS DE GRAVAÇÃO</span>
                 </div>
               </div>
             </div>
@@ -246,14 +231,14 @@ export default function CamerasResidenciais() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           
           <div className="text-center max-w-3xl mx-auto mb-20">
-            <span className="text-xs font-bold text-rose-500 uppercase tracking-widest bg-rose-950/20 border border-rose-500/10 px-3 py-1 rounded">
+            <span className="text-xs font-bold text-cyan-400 uppercase tracking-widest bg-cyan-950/20 border border-cyan-500/10 px-3 py-1 rounded">
               TRANQUILIDADE E PREVENÇÃO
             </span>
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl mt-4">
               Por que as câmeras da Link Alarmes fazem a diferença?
             </h2>
             <p className="mt-4 text-slate-400 text-sm max-w-2xl mx-auto">
-              Sistemas de segurança comuns geram falsas sensações de proteção. Nós projetamos e instalamos redes de CFTV profissionais que oferecem robustez técnica e facilidade de uso diário.
+              Sistemas de câmeras antigo ou mal instalado gera frustração. Te entregamos um sistema com ótima escolha de ambientes, ângulos e qualidade de imagem que parecem filme.
             </p>
           </div>
 
@@ -287,7 +272,7 @@ export default function CamerasResidenciais() {
                 </div>
                 <div className="p-4 bg-slate-900/30 text-center border-t border-slate-900">
                   <p className="text-[11px] font-mono text-cyan-400 font-semibold uppercase tracking-wider">
-                    [ MONITORAMENTO EXTERNO ATIVO 24H ]
+                    [ SUA CASA A UM CLICK DE DISTÂNCIA]
                   </p>
                 </div>
               </div>
@@ -298,14 +283,11 @@ export default function CamerasResidenciais() {
         </div>
       </section>
 
-      {/* Equipment Showcase (Grid of 8 products) */}
+      {/* Equipment Showcase (Grid of 6 products - 2 rows of 3) */}
       <section id="catalogo" className="py-24 bg-slate-900/30 border-b border-slate-900">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           
           <div className="text-center max-w-3xl mx-auto mb-20">
-            <span className="text-xs font-bold text-cyan-400 uppercase tracking-widest bg-cyan-950/20 border border-cyan-500/10 px-3 py-1 rounded">
-              NOSSO PORTFÓLIO
-            </span>
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl mt-4">
               Equipamentos de Alta Performance para Sua Casa
             </h2>
@@ -314,13 +296,13 @@ export default function CamerasResidenciais() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {produtos.map((produto) => (
               <div key={produto.nome} className="card-tech flex flex-col justify-between h-full border border-slate-900 hover:border-blue-500/20 transition-all duration-300">
                 <div>
                   
-                  {/* Image container */}
-                  <div className="relative w-full h-44 rounded-lg bg-slate-950 border border-slate-900 p-4 mb-5 flex items-center justify-center overflow-hidden">
+                  {/* Image container (Larger h-56) */}
+                  <div className="relative w-full h-56 rounded-lg bg-slate-950 border border-slate-900 p-4 mb-5 flex items-center justify-center overflow-hidden">
                     <img
                       src={produto.img}
                       alt={produto.nome}
