@@ -74,23 +74,23 @@ export default function CamerasResidenciais() {
   const faqs = [
     {
       pergunta: "Consigo ver as câmeras no celular fora de casa?",
-      resposta: "Sim! Configurando nosso sistema de câmeras IP ou Wi-Fi com conexão à internet, você acessa as imagens ao vivo e as gravações em tempo real de qualquer lugar do mundo por meio do aplicativo oficial no celular (iOS e Android)."
+      resposta: "Sim! Sim. Te entregamos o aplicativo para visualização já instalado e configurado no seu celular e de quem mais você autorizar. Pode ser pelo wifi ou chip."
     },
     {
       pergunta: "O que acontece se a energia da casa for cortada?",
-      resposta: "Para evitar vulnerabilidades, nós recomendamos e instalamos nobreaks especiais para o sistema de segurança. Em caso de queda ou corte intencional de energia elétrica, o nobreak mantém as câmeras e o gravador funcionando perfeitamente por várias horas."
+      resposta: "Para evitar a interrupção da gravação com queda de energia, recomendamos que compre o sistema com uma bateria tipo nobreak. Isso garante que seu equipamento funcione por horas de forma independente."
     },
     {
       pergunta: "As imagens ficam gravadas por quanto tempo?",
       resposta: "Isso varia de acordo com o tamanho do disco rígido (HD) instalado e a quantidade de câmeras. Projetamos nossos sistemas para manter o histórico de gravação por pelo menos 15 a 30 dias. Quando o espaço acaba, o sistema substitui automaticamente as imagens mais antigas."
     },
     {
-      pergunta: "As câmeras possuem detecção de alarmes falsos?",
-      resposta: "Sim. Nossas câmeras inteligentes com Inteligência Artificial diferenciam movimentos de cães, gatos, sombras e folhas de movimentos de pessoas ou veículos. Assim, você só recebe alertas reais no celular quando algo importante acontecer."
+      pergunta: "Quantas câmeras preciso instalar?",
+      resposta: "Isso depende do tamanho do ambiente, pois, casas pequenas e casas grandes, tem uma diferença de tamanho e podem pegar mais ou menos câmeras. Os gravadores são de 4, 8, 16 ou 32 câmeras. Entre em contato que tiramos essa e mais dúvidas de forma gratuita."
     },
     {
       pergunta: "A Link Alarmes oferece garantia e suporte?",
-      resposta: "Oferecemos garantia de 12 meses nos equipamentos e suporte técnico especializado pós-venda. Nossa equipe conta com profissionais próprios com mais de 15 anos de experiência prática, garantindo manutenção ágil e atendimento humanizado."
+      resposta: "Oferecemos garantia de 12 meses nos equipamentos que não tenha sido danificado por mal uso ou descargas atmosféricas e 90 dias na mão de obra de instalação. Garantimos suporte técnico especializado pós-venda. Nossa equipe conta com profissionais próprios com mais de 15 anos de experiência prática, garantindo manutenção ágil e atendimento humanizado."
     }
   ];
 
@@ -605,7 +605,7 @@ export default function CamerasResidenciais() {
             Garanta a Proteção Completa do Seu Lar Hoje.
           </h2>
           <p className="mt-6 text-slate-400 max-w-xl mx-auto text-sm md:text-base leading-relaxed">
-            Fale com a nossa equipe em São Paulo, tire dúvidas do seu projeto e garanta uma instalação limpa, profissional e garantida por 1 ano.
+            Fale com a nossa equipe, tire dúvidas do seu projeto e garanta uma instalação limpa, profissional.
           </p>
           
           <div className="mt-10 flex flex-col sm:flex-row justify-center items-center gap-4">
@@ -615,7 +615,6 @@ export default function CamerasResidenciais() {
               </svg>
               Orçamento via WhatsApp
             </a>
-            <span className="text-slate-500 font-mono text-xs">Ou ligue: (11) 91098-4454</span>
           </div>
           
         </div>
