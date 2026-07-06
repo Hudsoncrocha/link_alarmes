@@ -46,7 +46,7 @@ export default function CamerasResidenciais() {
   const galeriaImagens = [
     "https://http2.mlstatic.com/D_NQ_NP_2X_828767-MLB109506286633_032026-F.webp",
     "https://http2.mlstatic.com/D_NQ_NP_2X_956613-MLA99724876647_112025-F.webp",
-    "https://http2.mlstatic.com/D_NQ_NP_2X_784485-MLA109808909587_0320",
+    "https://cdn.awsli.com.br/2616/2616015/arquivos/17155f2b-2fb5-4b87-900e-a5ad4d886c96.jpg",
     "https://http2.mlstatic.com/D_NQ_NP_2X_718289-MLB95528810022_102025-F.webp",
     "https://cdn.awsli.com.br/2616/2616015/arquivos/45c8eae8-0e07-418d-b1a8-12b8cc659594.jpg",
     "https://http2.mlstatic.com/D_NQ_NP_2X_966549-MLU77372558387_072024-F.webp"
