@@ -228,7 +228,7 @@ export default function CamerasResidenciais() {
               <div className="relative p-1 rounded-2xl bg-gradient-to-br from-blue-500/5 to-slate-900 border border-slate-800/80 shadow-[0_0_40px_rgba(6,182,212,0.02)] overflow-hidden w-full max-w-[450px]">
                 <div className="relative aspect-[4/3] w-full rounded-xl overflow-hidden bg-slate-900">
                   <img
-                    src="https://www.verisure.com.br/sites/br/files/flmngr/drupal/blog/o-que-e-uma-camera-de-seguranca-residencial%20%281%29.jpg"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScuFaY_vOGR2hSMq1Hl7eSHW_ObcEU0x6SUkoSPhSOAA&s=10"
                     alt="Câmera de segurança residencial instalada monitorando a fachada externa da casa"
                     className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                   />
@@ -269,6 +269,158 @@ export default function CamerasResidenciais() {
             ))}
           </div>
 
+        </div>
+      </section>
+ 
+      {/* Acesso Remoto Section */}
+      <section className="py-24 bg-slate-950 border-b border-slate-900">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            
+            {/* Steps / Manual */}
+            <div className="lg:col-span-7 flex flex-col items-start">
+              <span className="text-xs font-bold text-cyan-400 uppercase tracking-widest bg-cyan-950/20 border border-cyan-500/10 px-3 py-1 rounded mb-4">
+                CONTROLE NA PALMA DA MÃO
+              </span>
+              <h2 className="text-3xl font-bold text-white sm:text-4xl leading-tight">
+                Acesso Remoto Sem Complicações
+              </h2>
+              <p className="mt-4 text-slate-400 text-sm leading-relaxed mb-8">
+                Monitore tudo em tempo real de forma simples e segura. Nosso sistema de acesso remoto é projetado para que qualquer pessoa consiga operar sem dificuldades. Veja como funciona o manual explicativo:
+              </p>
+              
+              <div className="space-y-6 w-full">
+                <div className="flex gap-4 items-start">
+                  <div className="h-8 w-8 rounded-full bg-cyan-950/40 border border-cyan-800/40 flex items-center justify-center flex-shrink-0 text-cyan-400 text-xs font-mono">
+                    01
+                  </div>
+                  <div>
+                    <h4 className="text-sm font-bold text-white uppercase tracking-wider mb-1">Download e Login</h4>
+                    <p className="text-xs text-slate-400 leading-relaxed">Baixe o aplicativo oficial (compatível com Android e iOS). Nossos técnicos realizam toda a configuração inicial e cadastram suas senhas de acesso.</p>
+                  </div>
+                </div>
+                
+                <div className="flex gap-4 items-start">
+                  <div className="h-8 w-8 rounded-full bg-cyan-950/40 border border-cyan-800/40 flex items-center justify-center flex-shrink-0 text-cyan-400 text-xs font-mono">
+                    02
+                  </div>
+                  <div>
+                    <h4 className="text-sm font-bold text-white uppercase tracking-wider mb-1">Visualização em Tempo Real</h4>
+                    <p className="text-xs text-slate-400 leading-relaxed">Assista às câmeras ao vivo de onde estiver. O aplicativo otimiza a transmissão para conexões 3G, 4G, 5G ou redes Wi-Fi sem travamentos.</p>
+                  </div>
+                </div>
+
+                <div className="flex gap-4 items-start">
+                  <div className="h-8 w-8 rounded-full bg-cyan-950/40 border border-cyan-800/40 flex items-center justify-center flex-shrink-0 text-cyan-400 text-xs font-mono">
+                    03
+                  </div>
+                  <div>
+                    <h4 className="text-sm font-bold text-white uppercase tracking-wider mb-1">Linha do Tempo de Gravações</h4>
+                    <p className="text-xs text-slate-400 leading-relaxed">Arraste a linha do tempo para rever qualquer momento das últimas semanas. As imagens ficam gravadas com segurança e são facilmente localizáveis.</p>
+                  </div>
+                </div>
+
+                <div className="flex gap-4 items-start">
+                  <div className="h-8 w-8 rounded-full bg-cyan-950/40 border border-cyan-800/40 flex items-center justify-center flex-shrink-0 text-cyan-400 text-xs font-mono">
+                    04
+                  </div>
+                  <div>
+                    <h4 className="text-sm font-bold text-white uppercase tracking-wider mb-1">Compartilhamento e Downloads</h4>
+                    <p className="text-xs text-slate-400 leading-relaxed">Encontrou algo importante? Salve trechos de gravações diretamente na galeria de fotos do seu celular com um clique para compartilhar no WhatsApp.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            {/* App screen in hand image */}
+            <div className="lg:col-span-5 relative w-full flex justify-center">
+              <div className="relative p-1.5 rounded-2xl bg-gradient-to-br from-blue-500/10 via-cyan-500/5 to-slate-900 border border-slate-800 shadow-[0_0_50px_rgba(6,182,212,0.05)] overflow-hidden w-full max-w-[420px]">
+                <div className="relative aspect-[4/5] w-full rounded-xl overflow-hidden bg-slate-950">
+                  <img
+                    src="https://www.verisure.com.br/sites/br/files/flmngr/drupal/blog/o-que-e-uma-camera-de-seguranca-residencial%20%281%29.jpg"
+                    alt="Pessoa segurando celular com o aplicativo de câmeras residenciais aberto e monitorando a residência"
+                    className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-40"></div>
+                </div>
+                <div className="mt-4 px-4 pb-2 flex justify-between items-center text-[10px] text-slate-500 font-mono">
+                  <span>ACESSO REMOTO</span>
+                  <span>CRIPTOGRAFIA ATIVA</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      {/* Garantia Section */}
+      <section className="py-24 bg-slate-900/20 border-b border-slate-900">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            
+            {/* Warranty badge/visual info */}
+            <div className="lg:col-span-5 relative w-full flex justify-center order-last lg:order-first">
+              <div className="card-tech p-8 flex flex-col justify-between border border-cyan-500/10 min-h-[350px] w-full max-w-[420px]">
+                <div className="border-b border-slate-800 pb-4 flex items-center justify-between">
+                  <span className="text-slate-400 font-mono text-xs">// CERTIFICADO DE GARANTIA LINK</span>
+                  <span className="glow-dot-emerald"></span>
+                </div>
+                <div className="space-y-6 py-6">
+                  <div className="flex justify-between items-baseline border-b border-slate-800/60 pb-2">
+                    <span className="text-slate-400 text-xs uppercase tracking-wider font-mono">Equipamentos:</span>
+                    <span className="text-2xl font-extrabold text-cyan-400 font-mono">1 ANO</span>
+                  </div>
+                  <div className="flex justify-between items-baseline border-b border-slate-800/60 pb-2">
+                    <span className="text-slate-400 text-xs uppercase tracking-wider font-mono">Mão de Obra:</span>
+                    <span className="text-2xl font-extrabold text-cyan-400 font-mono">3 MESES</span>
+                  </div>
+                  <div className="flex justify-between items-baseline border-b border-slate-800/60 pb-2">
+                    <span className="text-slate-400 text-xs uppercase tracking-wider font-mono">Suporte Pós-Venda:</span>
+                    <span className="text-xs font-bold text-white font-mono uppercase bg-emerald-600 px-2 py-0.5 rounded">Incluso</span>
+                  </div>
+                </div>
+                <div className="text-[10px] text-slate-500 font-mono leading-relaxed">
+                  Garantia assegurada em contrato. Comprometimento real com o funcionamento do seu sistema de CFTV.
+                </div>
+              </div>
+            </div>
+
+            {/* Warranty text details */}
+            <div className="lg:col-span-7 flex flex-col items-start">
+              <span className="text-xs font-bold text-rose-500 uppercase tracking-widest bg-rose-950/20 border border-rose-500/10 px-3.5 py-1.5 rounded mb-4">
+                COMPROMISSO E CONFIANÇA
+              </span>
+              <h2 className="text-3xl font-bold text-white sm:text-4xl leading-tight">
+                Garantia Sem Letras Miúdas
+              </h2>
+              <p className="mt-6 text-slate-400 text-sm leading-relaxed mb-6">
+                Na Link Alarmes, confiamos na qualidade dos nossos produtos e no rigor técnico de nossa equipe. Por isso, oferecemos uma das melhores coberturas de garantia do mercado de segurança eletrônica residencial, passando total segurança ao consumidor:
+              </p>
+              
+              <ul className="space-y-4 text-xs font-semibold text-slate-300">
+                <li className="flex items-start gap-3">
+                  <svg className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                  </svg>
+                  <div>
+                    <span className="text-white font-bold block mb-0.5 uppercase tracking-wide">1 Ano de Garantia nos Produtos (12 Meses)</span>
+                    <span className="text-slate-400 font-normal">Qualquer defeito técnico de fabricação nas câmeras, gravadores, discos rígidos ou nobreaks será solucionado com a troca imediata do equipamento defeituoso por um novo.</span>
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <svg className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                  </svg>
+                  <div>
+                    <span className="text-white font-bold block mb-0.5 uppercase tracking-wide">3 Meses de Garantia na Mão de Obra (90 Dias)</span>
+                    <span className="text-slate-400 font-normal">Caso precise de qualquer ajuste de posicionamento de câmeras, recalibração de sensores ou revisão da infraestrutura de cabos após o término do serviço, nossa equipe fará a visita técnica sem qualquer custo.</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+          </div>
         </div>
       </section>
 
