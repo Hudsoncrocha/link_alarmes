@@ -337,8 +337,8 @@ export default function CamerasResidenciais() {
               <div className="relative p-1.5 rounded-2xl bg-gradient-to-br from-blue-500/10 via-cyan-500/5 to-slate-900 border border-slate-800 shadow-[0_0_50px_rgba(6,182,212,0.05)] overflow-hidden w-full max-w-[420px]">
                 <div className="relative aspect-[4/5] w-full rounded-xl overflow-hidden bg-slate-950">
                   <img
-                    src="https://www.verisure.com.br/sites/br/files/flmngr/drupal/blog/o-que-e-uma-camera-de-seguranca-residencial%20%281%29.jpg"
-                    alt="Pessoa segurando celular com o aplicativo de câmeras residenciais aberto e monitorando a residência"
+                    src="https://http2.mlstatic.com/D_NQ_NP_2X_966549-MLU77372558387_072024-F.webp"
+                    alt="Kit de gravação DVR e câmeras de segurança residenciais"
                     className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-40"></div>
