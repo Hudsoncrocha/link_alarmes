@@ -65,7 +65,7 @@ export default function CercasEletricasSuperpage() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             
             {/* Hero Text */}
-            <div className="lg:col-span-7 text-left flex flex-col items-start">
+            <div className="lg:col-span-6 text-left flex flex-col items-start">
               <span className="text-xs font-bold text-cyan-400 uppercase tracking-widest bg-cyan-950/20 border border-cyan-500/10 px-3.5 py-1.5 rounded-full mb-6">
                 A melhor cerca elétrica de São Paulo
               </span>
@@ -91,8 +91,8 @@ export default function CercasEletricasSuperpage() {
             </div>
 
             {/* Hero Image Component */}
-            <div className="lg:col-span-5 relative w-full flex justify-center lg:justify-end">
-              <div className="relative p-1.5 rounded-2xl bg-gradient-to-br from-blue-500/10 via-cyan-500/5 to-slate-900 border border-slate-800 shadow-[0_0_50px_rgba(6,182,212,0.05)] group overflow-hidden max-w-[420px] w-full">
+            <div className="lg:col-span-6 relative w-full flex justify-center lg:justify-end">
+              <div className="relative p-2 rounded-2xl bg-gradient-to-br from-cyan-500/20 via-blue-500/10 to-slate-950 border border-slate-800/80 shadow-[0_0_60px_rgba(6,182,212,0.15)] group overflow-hidden max-w-[580px] w-full">
                 <div className="relative aspect-[4/3] w-full rounded-xl overflow-hidden">
                   <Image
                     src="/cerca-eletrica-hero-premium.png"
