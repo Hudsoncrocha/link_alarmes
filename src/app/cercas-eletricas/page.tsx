@@ -98,7 +98,7 @@ export default function CercasEletricasSuperpage() {
                     src="/cerca-eletrica-hero-premium.png"
                     alt="Cerca Elétrica Premium de Alta Segurança da Link Alarmes"
                     fill
-                    className="object-cover transition-transform duration-700 group-hover:scale-105"
+                    className="object-cover object-right transition-transform duration-700 group-hover:scale-105"
                     priority
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-60"></div>
