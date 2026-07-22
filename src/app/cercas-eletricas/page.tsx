@@ -95,8 +95,8 @@ export default function CercasEletricasSuperpage() {
               <div className="relative p-1.5 rounded-2xl bg-gradient-to-br from-blue-500/10 via-cyan-500/5 to-slate-900 border border-slate-800 shadow-[0_0_50px_rgba(6,182,212,0.05)] group overflow-hidden max-w-[420px] w-full">
                 <div className="relative aspect-[4/3] w-full rounded-xl overflow-hidden">
                   <Image
-                    src="/cerca-eletrica-hero.png"
-                    alt="Cerca Elétrica Premium instalada em muro de concreto escuro"
+                    src="/cerca-eletrica-hero-premium.png"
+                    alt="Cerca Elétrica Premium de Alta Segurança da Link Alarmes"
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-105"
                     priority
