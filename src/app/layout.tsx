@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Script from "next/script";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -74,98 +75,109 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
-        {/* Google Tag Manager */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-              })(window,document,'script','dataLayer','${process.env.NEXT_PUBLIC_GTM_ID || "GTM-KWTNRZ32"}');
-            `,
-          }}
-        />
-        {/* End Google Tag Manager */}
-        {/* Capture UTMs & Gclid to SessionStorage */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              (function() {
-                try {
-                  var params = new URLSearchParams(window.location.search);
-                  var utms = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term', 'gclid'];
-                  utms.forEach(function(key) {
-                    var val = params.get(key);
-                    if (val) {
-                      sessionStorage.setItem(key, val);
-                    }
-                  });
-                } catch(e) {
-                  console.error('Error saving UTMs:', e);
-                }
-              })();
-            `,
-          }}
-        />
-        {/* End Capture UTMs */}
-        {/* Intercept wa.me links globally and route through /whatsapp redirection */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              (function() {
-                try {
-                  document.addEventListener('click', function(e) {
-                    var target = e.target;
-                    while (target && target.tagName !== 'A') {
-                      target = target.parentNode;
-                    }
-                    if (target && target.href && target.href.indexOf('wa.me') !== -1) {
-                      e.preventDefault();
-                      var pathname = window.location.pathname;
-                      var origin = pathname.replace(/^\\/+|\\/+$/g, '').replace(/\\//g, '-') || 'home';
-                      
-                      // Extract custom text from target wa.me link
-                      var targetText = '';
-                      try {
-                        var targetUrlParts = target.href.split('?');
-                        if (targetUrlParts.length > 1) {
-                          var targetParams = new URLSearchParams(targetUrlParts[1]);
-                          targetText = targetParams.get('text') || '';
-                        }
-                      } catch(err) {
-                        console.error('Error parsing target text:', err);
-                      }
-                      
-                      var search = window.location.search;
-                      var params = new URLSearchParams(search);
-                      params.set('origin', origin);
-                      if (targetText) {
-                        params.set('wpp_text', targetText);
-                      }
-                      
-                      window.location.href = '/whatsapp?' + params.toString();
-                    }
-                  });
-                } catch(e) {
-                  console.error('Error intercepting wa.me click:', e);
-                }
-              })();
-            `,
-          }}
-        />
       </head>
       <body className="min-h-full flex flex-col bg-slate-950 text-slate-100 selection:bg-cyan-500 selection:text-slate-950">
         {/* Google Tag Manager (noscript) */}
         <noscript
           dangerouslySetInnerHTML={{
             __html: `
-              <iframe src="https://www.googletagmanager.com/ns.html?id=${process.env.NEXT_PUBLIC_GTM_ID || "GTM-KWTNRZ32"}"
+              <iframe src="https://www.googletagmanager.com/ns.html?id=${process.env.NEXT_PUBLIC_GTM_ID || "GTM-KWTNRK32"}"
               height="0" width="0" style="display:none;visibility:hidden"></iframe>
             `,
           }}
         />
         {/* End Google Tag Manager (noscript) */}
+
+        {/* Google Tag (gtag.js) */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-WY2XJNCJM7"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-WY2XJNCJM7');
+            gtag('config', 'AW-18222003443');
+          `}
+        </Script>
+
+        {/* Google Tag Manager */}
+        <Script id="google-tag-manager" strategy="afterInteractive">
+          {`
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','${process.env.NEXT_PUBLIC_GTM_ID || "GTM-KWTNRK32"}');
+          `}
+        </Script>
+
+        {/* Capture UTMs & Gclid to SessionStorage */}
+        <Script id="capture-utms" strategy="beforeInteractive">
+          {`
+            (function() {
+              try {
+                var params = new URLSearchParams(window.location.search);
+                var utms = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term', 'gclid'];
+                utms.forEach(function(key) {
+                  var val = params.get(key);
+                  if (val) {
+                    sessionStorage.setItem(key, val);
+                  }
+                });
+              } catch(e) {
+                console.error('Error saving UTMs:', e);
+              }
+            })();
+          `}
+        </Script>
+
+        {/* Intercept wa.me links globally and route through /whatsapp redirection */}
+        <Script id="wa-interceptor" strategy="afterInteractive">
+          {`
+            (function() {
+              try {
+                document.addEventListener('click', function(e) {
+                  var target = e.target;
+                  while (target && target.tagName !== 'A') {
+                    target = target.parentNode;
+                  }
+                  if (target && target.href && target.href.indexOf('wa.me') !== -1) {
+                    e.preventDefault();
+                    var pathname = window.location.pathname;
+                    var origin = pathname.replace(/^\\/+|\\/+$/g, '').replace(/\\//g, '-') || 'home';
+                    
+                    // Extract custom text from target wa.me link
+                    var targetText = '';
+                    try {
+                      var targetUrlParts = target.href.split('?');
+                      if (targetUrlParts.length > 1) {
+                        var targetParams = new URLSearchParams(targetUrlParts[1]);
+                        targetText = targetParams.get('text') || '';
+                      }
+                    } catch(err) {
+                      console.error('Error parsing target text:', err);
+                    }
+                    
+                    var search = window.location.search;
+                    var params = new URLSearchParams(search);
+                    params.set('origin', origin);
+                    if (targetText) {
+                      params.set('wpp_text', targetText);
+                    }
+                    
+                    window.location.href = '/whatsapp?' + params.toString();
+                  }
+                });
+              } catch(e) {
+                console.error('Error intercepting wa.me click:', e);
+              }
+            })();
+          `}
+        </Script>
+
         <Header />
         <main className="flex-1 flex flex-col">{children}</main>
         <Footer />
